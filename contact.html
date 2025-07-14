@@ -1,13 +1,76 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Kontak - Treeforma</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      font-family: 'Segoe UI', sans-serif;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0a0a0a;
+      padding: 20px;
+      text-align: center;
+    }
+    header img.logo {
+      width: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #00e5ff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 5px;
+    }
+    .contact-section {
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .contact-box {
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 500px;
+      margin: 0 auto;
+      box-shadow: 0 4px 20px rgba(0, 229, 255, 0.3);
+    }
+    .contact-box h2 {
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+      color: #00e5ff;
+    }
+    .contact-box p {
+      font-size: 1rem;
+      margin: 8px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #000;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <img src="images/logo.png" alt="Logo Treeforma" class="logo">
+    <img src="images/Images.jpeg" alt="Treeforma Logo" class="logo" />
     <h1>Hubungi Kami</h1>
     <nav>
       <a href="index.html">Beranda</a>
@@ -17,12 +80,17 @@
       <a href="contact.html">Kontak</a>
     </nav>
   </header>
-  <main>
-    <section class="hero">
+
+  <section class="contact-section">
+    <div class="contact-box">
       <h2>Kontak</h2>
-      <p>Email: treeforma@gmail.com<br>WhatsApp: 0822-1234-5678</p>
-    </section>
-  </main>
-  <footer>© 2025 Treeforma Construction</footer>
+      <p>Email: <a href="mailto:treeforma@gmail.com" style="color:#fff;">treeforma@gmail.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/6282212345678" target="_blank" style="color:#fff;">0822-1234-5678</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Treeforma Construction. All rights reserved.
+  </footer>
 </body>
 </html>
